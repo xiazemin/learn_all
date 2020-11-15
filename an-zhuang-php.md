@@ -20,5 +20,11 @@ Status: Downloaded newer image for webdevops/php-nginx:latest
 
 docker.io/webdevops/php-nginx:latest
 
+$  docker run --name php-nginx -v ~/nginx/www:/www  -d webdevops/php-nginx
+
+d995f0f9fa7c627ac54550164e9f109e143074b7fb7aaebfcf018a4e330e0edf
+
+$ ls ~/nginx/www
+
 
 

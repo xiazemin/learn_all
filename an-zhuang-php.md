@@ -45,5 +45,7 @@ $ docker run --name  php-nginx -p 8083:80 -d \
   nginx 的 /etc/hosts，把域名 php 映射成 127.0.0.1，让 nginx 通过 php:9000 访问 php-fpm。
 ```
 
+$ docker kill d995f0f9fa7c
 
+d995f0f9fa7c
 

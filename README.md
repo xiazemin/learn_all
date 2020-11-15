@@ -26,5 +26,23 @@ cker101tutorial
 
 The push refers to repository \[docker.io/xiazemin/docker101tutorial\]
 
+http://localhost/tutorial/
+
+
+
+$ docker images
+
+REPOSITORY                   TAG                                              IMAGE ID            CREATED             SIZE
+
+docker101tutorial            latest                                           e9d8fd608a04        6 minutes ago       27.2MB
+
+xiazemin/docker101tutorial   latest                                           e9d8fd608a04        6 minutes ago       27.2MB
+
+alpine/git                   latest                                           a8b6c5c0eb62        3 weeks ago         28.4MB
+
+docker/desktop-kubernetes    kubernetes-v1.18.8-cni-v0.8.5-critools-v1.17.0   e777077bd5d8        2 months ago        292MB
+
+
+
 
 

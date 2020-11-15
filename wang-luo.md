@@ -12,3 +12,9 @@ CONTAINER ID        IMAGE                 COMMAND                  CREATED      
 
 e77e6430393f        docker101tutorial     "/docker-entrypoint.…"   About an hour ago    Up About an hour    0.0.0.0:80-&gt;80/tcp          docker-tutorial
 
+创建一个新的 Docker 网络。
+
+$ docker network create -d bridge test-net
+
+711bfa905ab5692d26db3c242333607360700d69e1adec5dc23972e4e8248697
+

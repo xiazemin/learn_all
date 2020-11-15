@@ -6,7 +6,11 @@ CONTAINER ID        IMAGE               COMMAND                  CREATED        
 
 e77e6430393f        docker101tutorial   "/docker-entrypoint.…"   31 minutes ago      Up 31 minutes       0.0.0.0:80-&gt;80/tcp   docker-tutorial
 
+$ docker search php
 
+$ docker pull webdevops/php-nginx
 
+Using default tag: latest
 
+latest: Pulling from webdevops/php-nginx
 

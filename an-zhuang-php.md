@@ -14,3 +14,11 @@ Using default tag: latest
 
 latest: Pulling from webdevops/php-nginx
 
+Digest: sha256:d767e533e0fc17296a51ed36caa4de265fc5b803707e318fc90094538b29a3b4
+
+Status: Downloaded newer image for webdevops/php-nginx:latest
+
+docker.io/webdevops/php-nginx:latest
+
+
+

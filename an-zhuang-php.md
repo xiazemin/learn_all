@@ -65,3 +65,13 @@ root@9f8dab6d9
 
 /usr/bin/php
 
+/\# apt-get install telnet
+
+Reading package lists... Done
+
+Building dependency tree
+
+Reading state information... Done
+
+E: Unable to locate package telnet
+

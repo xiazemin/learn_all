@@ -49,3 +49,19 @@ $ docker kill d995f0f9fa7c
 
 d995f0f9fa7c
 
+$  docker run --name php-nginx -v ~/nginx/www:/www  -d webdevops/php-nginx
+
+9f8dab6d9c7c447fb9e29e40ab203e33d51c25ea6ec38502e00e6bec3fbdf000
+
+$ docker exec -it 9f8dab6d9c7c447fb9e29e40ab203e33d51c25ea6ec38502e00e6bec3fbdf000 /bin/bash
+
+root@9f8dab6d9
+
+:/\# which nginx
+
+/usr/sbin/nginx
+
+:/\# which php
+
+/usr/bin/php
+

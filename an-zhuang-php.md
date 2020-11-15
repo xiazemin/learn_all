@@ -26,5 +26,24 @@ d995f0f9fa7c627ac54550164e9f109e143074b7fb7aaebfcf018a4e330e0edf
 
 $ ls ~/nginx/www
 
+$  mkdir -p  ~/nginx/conf/conf.d
+
+$ vi ~/nginx/conf/conf.d/php.conf
+
+$ docker run --name  php-nginx -p 8083:80 -d \
+
+&gt;  -v ~/nginx/www:/usr/share/nginx/html:ro \
+
+&gt;  -v ~/nginx/conf/conf.d:/etc/nginx/conf.d:ro \
+
+&gt;  --link php-nginx:php \
+
+&gt; nginx
+
+```
+ --link myphp-fpm:php: 把 myphp-fpm 的网络并入 nginx，并通过修改
+  nginx 的 /etc/hosts，把域名 php 映射成 127.0.0.1，让 nginx 通过 php:9000 访问 php-fpm。
+```
+
 
 

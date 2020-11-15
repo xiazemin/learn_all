@@ -39,5 +39,7 @@ location ~ \.php$ {
 }
 ```
 
+ /private/etc/php-fpm.conf
+
 
 

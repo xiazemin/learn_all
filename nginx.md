@@ -39,7 +39,11 @@ location ~ \.php$ {
 }
 ```
 
- /private/etc/php-fpm.conf
+```
+sudo cp /private/etc/php-fpm.conf.default /private/etc/php-fpm.conf
+```
+
+/private/etc/php-fpm.conf
 
 
 

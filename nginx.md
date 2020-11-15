@@ -28,5 +28,16 @@ xiazemin         74784   0.0  0.0  4300560   1432   ??  Ss    5:34下午   0:00.
 
 $ vi /usr/local/etc/nginx/nginx.conf
 
+```
+location ~ \.php$ {
+    root           html;
+    fastcgi_pass   127.0.0.1:9000;
+    fastcgi_index  index.php;
+   #fastcgi_param  SCRIPT_FILENAME  /scripts$fastcgi_script_name;
+    fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+   include        fastcgi_params;
+}
+```
+
 
 

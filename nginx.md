@@ -26,3 +26,7 @@ xiazemin         74841   0.0  0.0  4301000   1080   ??  S     5:41下午   0:00.
 
 xiazemin         74784   0.0  0.0  4300560   1432   ??  Ss    5:34下午   0:00.01 nginx: master process nginx
 
+$ vi /usr/local/etc/nginx/nginx.conf
+
+
+

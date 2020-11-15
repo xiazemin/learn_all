@@ -45,5 +45,15 @@ sudo cp /private/etc/php-fpm.conf.default /private/etc/php-fpm.conf
 
 /private/etc/php-fpm.conf
 
+$ cp www.conf.default www.conf
 
+$ ps aux \|grep fpm
+
+xiazemin         75007   0.0  0.0  4284668    696 s003  S+    6:08下午   0:00.00 grep fpm
+
+xiazemin         75005   0.0  0.0  4313864    532   ??  S     6:08下午   0:00.00 php-fpm
+
+xiazemin         75004   0.0  0.0  4313864    568   ??  S     6:08下午   0:00.00 php-fpm
+
+xiazemin         75003   0.0  0.0  4314120    684   ??  Ss    6:08下午   0:00.01 php-fpm
 

@@ -18,3 +18,21 @@ $ docker network create -d bridge test-net
 
 711bfa905ab5692d26db3c242333607360700d69e1adec5dc23972e4e8248697
 
+参数说明：
+
+**-d**：参数指定 Docker 网络类型，有 bridge、overlay。
+
+其中 overlay 网络类型用于 Swarm mode
+
+### 连接容器
+
+运行一个容器并连接到新建的 test-net 网络:
+
+$  docker run --name php-nginx --network test-net -v ~/nginx/www:/www  -d webdevops/php-nginx
+
+8a042bc2d8a2cbcfe37a2123a0c9f36048e3c5bc3480ec3d4ac9b880863d621c
+
+$  docker run --name php-nginx1 --network test-net -v ~/nginx/www:/www  -d webdevops/php-nginx
+
+05a8490d0e86f9e9eac1d01811fb8d1d7ddb6ce1e78fddaf3293e4ce09643881
+

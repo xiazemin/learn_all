@@ -13,3 +13,18 @@ with nginx by using --with-openssl=<path> option.
 
 $ brew reinstall openssl
 
+```
+
+If you need to have libpq first in your PATH run:
+  echo 'export PATH="/usr/local/opt/libpq/bin:$PATH"' >> /Users/xiazemin/.bash_profile
+
+For compilers to find libpq you may need to set:
+  export LDFLAGS="-L/usr/local/opt/libpq/lib"
+  export CPPFLAGS="-I/usr/local/opt/libpq/include"
+
+For pkg-config to find libpq you may need to set:
+  export PKG_CONFIG_PATH="/usr/local/opt/libpq/lib/pkgconfig"
+```
+
+
+

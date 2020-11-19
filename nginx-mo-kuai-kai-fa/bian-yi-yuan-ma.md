@@ -14,11 +14,3 @@ $ make -j4
 
 $sudo make install
 
-vi /usr/local/nginx/conf/nginx.conf
-
- /usr/local/nginx/sbin/nginx
-
-curl http://127.0.0.1/hello
-
-hello nginx!
-

@@ -1,0 +1,4 @@
+./configure --with-http\_ssl\_module --with-openssl=/usr/local/opt/openssl@1.1/
+
+
+

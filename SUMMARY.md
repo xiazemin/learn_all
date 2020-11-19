@@ -7,4 +7,5 @@
 * [nginx](nginx.md)
 * [压测](ya-ce.md)
 * [nginx 模块开发](nginx-mo-kuai-kai-fa.md)
+  * [编译源码](nginx-mo-kuai-kai-fa/bian-yi-yuan-ma.md)
 

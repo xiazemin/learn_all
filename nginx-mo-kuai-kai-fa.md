@@ -11,5 +11,5 @@ into the system, or build the OpenSSL library statically from the source
 with nginx by using --with-openssl=<path> option.
 ```
 
-
+$ brew reinstall openssl
 

@@ -2,3 +2,5 @@ Nginx的配置文件是以block的形式组织的，一个block通常使用大�
 
 Nginx本身支持多种模块，如HTTP模块、EVENT模块和MAIL模块
 
+
+

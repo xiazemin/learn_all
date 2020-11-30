@@ -10,4 +10,5 @@
   * [编译源码](nginx-mo-kuai-kai-fa/bian-yi-yuan-ma.md)
   * [自定义扩展](nginx-mo-kuai-kai-fa/zi-ding-yi-kuo-zhan.md)
   * [nginx配置](nginx-mo-kuai-kai-fa/nginxpei-zhi.md)
+* [mysql](mysql.md)
 
